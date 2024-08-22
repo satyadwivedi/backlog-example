@@ -1,0 +1,17 @@
+Projects
+ID,Name,Description,StartDate,EndDate,Status
+p1,Project Alpha,"A comprehensive project",2023-01-01,2023-12-31,Active
+
+Tasks
+ID,Name,Description,DueDate,Priority,Completed,Category_ID,Project_ID
+t1,Task 1,"Initial task",2023-02-01,High,false,c1,p1
+t2,Task 2,"Second task",2023-02-15,Medium,false,c1,p1
+t3,Task 3,"Third task",2023-03-01,Low,true,c1,p1
+...
+t98,Task 98,"Ninety-eighth task",2023-11-15,Medium,true,c1,p1
+t99,Task 99,"Ninety-ninth task",2023-11-29,High,false,c1,p1
+t100,Task 100,"One hundredth task",2023-12-15,Low,true,c1,p1
+
+Category
+ID,Name,Description
+c1,Development,"Tasks related to software development"
