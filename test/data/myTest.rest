@@ -1,0 +1,15 @@
+
+
+###
+
+GET http://localhost:4004/odata/v4/Projects
+
+###
+POST http://localhost:4004/service/interview/completeProject
+Content-Type: application/json
+
+
+{
+   "projectId": "a176bd7d-2108-40ef-914e-95b398bf5bb4"
+}
+

@@ -7,4 +7,8 @@ service interviewSrv {
   entity Projects as projection on my.Projects;
   @odata.draft.enabled
   entity Category as projection on my.Category;
+
+  
+
+  action completeProject( projectId: UUID ) returns Projects;
 }
